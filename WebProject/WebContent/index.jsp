@@ -1,4 +1,4 @@
-<%@page import="test.TestDAO"%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -9,6 +9,13 @@
 </head>
 <body>
 	<h2> index.jsp 파일 이다. </h2>
-<% TestDAO dao = new TestDAO(); %>
+	<h3> 선택하시오. </h3>
+	<select>
+		<option>### 선택 ### </option>
+		<option>git </option>
+		<option>jsp </option>
+		<option>spring</option>
+		
+	</select>
 </body>
 </html>
